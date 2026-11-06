@@ -440,9 +440,9 @@ footer {
             </select>
 
             <p style="margin: 10px 0 18px;">
-                Price per ticket: ₱100
+                Price per ticket: ₱70
                 <br>
-                <strong>Total: ₱<span id="total">100</span></strong>
+                <strong>Total: ₱<span id="total">70</span></strong>
             </p>
 
             <button type="submit" class="btn submit-btn">
@@ -464,10 +464,10 @@ footer {
     <h2 class="section-title">Event Information</h2>
 
     <div class="event-details">
-        <p>📅 <strong>Date:</strong> To be announced</p>
-        <p>⏰ <strong>Time:</strong> To be announced</p>
-        <p>📍 <strong>Location:</strong> To be announced</p>
-        <p>🎟️ <strong>Entrance Fee:</strong> ₱100 per person</p>
+        <p>📅 <strong>Date:</strong> DEC 23-29 2026</p>
+        <p>⏰ <strong>Time:</strong> 8:00 AM - 17:00 PM</p>
+        <p>📍 <strong>Location:</strong> Convention Center, Baguio City</p>
+        <p>🎟️ <strong>Entrance Fee:</strong> ₱70 per person</p>
     </div>
 </section>
 
@@ -490,7 +490,7 @@ function registerVendor(event) {
 function calculateTotal() {
     let count = Number(document.getElementById("ticketCount").value);
 
-    let total = count * 100;
+    let total = count * 70;
 
     document.getElementById("total").textContent = total;
 }
